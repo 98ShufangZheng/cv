@@ -1,16 +1,185 @@
-<!doctype html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>欢迎</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="corner-name">Shufang Zheng</div>
-    <main class="container">
-      <h1>Hello World</h1>
-      <p>这是Shufang Zheng的第一个用Cursor自动生成的网页</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artur Carter - CV</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="profile-card">
+          <div class="avatar">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop" alt="Artur Carter">
+          </div>
+          <h1 class="name">Artur Carter</h1>
+          <p class="titles">Front-end Developer</p>
+          <p class="titles">UI/UX Designer</p>
+        </div>
+
+        <div class="personal-details">
+          <p><span class="label">Residence:</span> Canada</p>
+          <p><span class="label">City:</span> Toronto</p>
+          <p><span class="label">Age:</span> 26</p>
+        </div>
+
+        <div class="language-skills">
+          <h3>Languages</h3>
+          <div class="circular-bars">
+            <div class="circular-item">
+              <div class="circle" data-pct="100">
+                <span class="pct">100%</span>
+              </div>
+              <span class="lang-name">French</span>
+            </div>
+            <div class="circular-item">
+              <div class="circle" data-pct="90">
+                <span class="pct">90%</span>
+              </div>
+              <span class="lang-name">English</span>
+            </div>
+            <div class="circular-item">
+              <div class="circle" data-pct="70">
+                <span class="pct">70%</span>
+              </div>
+              <span class="lang-name">Spanish</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-skills">
+          <h3>Technical Skills</h3>
+          <div class="skill-row">
+            <span class="skill-name">html</span>
+            <div class="bar-wrap"><div class="bar" style="width: 90%"></div></div>
+            <span class="skill-pct">90%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">CSS</span>
+            <div class="bar-wrap"><div class="bar" style="width: 95%"></div></div>
+            <span class="skill-pct">95%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Js</span>
+            <div class="bar-wrap"><div class="bar" style="width: 75%"></div></div>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">PHP</span>
+            <div class="bar-wrap"><div class="bar" style="width: 65%"></div></div>
+            <span class="skill-pct">65%</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">WordPress</span>
+            <div class="bar-wrap"><div class="bar" style="width: 85%"></div></div>
+            <span class="skill-pct">85%</span>
+          </div>
+        </div>
+
+        <div class="dev-knowledge">
+          <h3>Development Knowledge</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> Bootstrap, Materialize</li>
+            <li><i class="fas fa-check"></i> Stylus, Sass, Less</li>
+            <li><i class="fas fa-check"></i> Gulp, Webpack, Grunt</li>
+            <li><i class="fas fa-check"></i> GIT knowledge</li>
+          </ul>
+        </div>
+
+        <a href="#" class="btn-download"><i class="fas fa-download"></i> DOWNLOAD CV</a>
+
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <nav class="main-nav">
+        <span class="nav-label">HOME</span>
+        <button class="menu-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80');"></div>
+        <div class="hero-content">
+          <h2 class="hero-title">Discover my Amazing Art Space!</h2>
+          <p class="hero-subtitle"><code>I build ios and android applications.</code></p>
+          <a href="#" class="btn-explore">EXPLORE NOW</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop" alt="Artur Carter">
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stat-item">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">143</span>
+          <span class="stat-label">Completed Projects</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">114</span>
+          <span class="stat-label">Happy Customers</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Honors and Awards</span>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2 class="section-title">My Services</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.</p>
+            <a href="#" class="link-order">ORDER NOW <i class="fas fa-chevron-right"></i></a>
+          </article>
+          <article class="service-card">
+            <h3>UI/UX Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.</p>
+            <a href="#" class="link-order">ORDER NOW <i class="fas fa-chevron-right"></i></a>
+          </article>
+          <article class="service-card">
+            <h3>Sound Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.</p>
+            <a href="#" class="link-order">ORDER NOW <i class="fas fa-chevron-right"></i></a>
+          </article>
+          <article class="service-card">
+            <h3>Game Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.</p>
+            <a href="#" class="link-order">ORDER NOW <i class="fas fa-chevron-right"></i></a>
+          </article>
+          <article class="service-card">
+            <h3>Advertising</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.</p>
+            <a href="#" class="link-order">ORDER NOW <i class="fas fa-chevron-right"></i></a>
+          </article>
+          <article class="service-card">
+            <h3>Photography</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.</p>
+            <a href="#" class="link-order">ORDER NOW <i class="fas fa-chevron-right"></i></a>
+          </article>
+        </div>
+      </section>
     </main>
-  </body>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
